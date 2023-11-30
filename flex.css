@@ -1,0 +1,45 @@
+.me{
+    height: 60px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(fli.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: flex-end;
+}
+.code{
+    color: rgb(72, 14, 14);
+    font-size: 30px;
+}
+span{
+    color: rgb(87, 26, 26);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: aqua;
+    text-decoration: none;
+    font-weight: 100;
+}
+nav ul li a:hover{
+    color: rgb(56, 180, 138);
+    transition: .2s;
+}
+button{
+    border: none;
+    background: rgb(82, 18, 18);
+    padding: 11px 28px;
+    border-radius: 28px;
+}
+body{
+    background-image: url(fli.jpg);
+}
